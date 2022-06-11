@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+<body>
+    <form id="myForm" action="https://localhost:3000/register" method="post" onsubmit="return validateForm()" >
+        <label for="username">Username:</label>
+        <input id="username" name="username" placeholder="Nombre de usuario" required>
+        <br>
+        <label for="email">Correo:</label>
+        <input id="email" name="email" type="email" placeholder="correo@dominio.es" required>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input id="password" name="password" type="password" minlength="8" placeholder="Contraseña" required>
+        <br>
+        <label for="repeat_pass" >Repetir contraseña:</label>
+        <input id="repeat_pass" name="repeat_pass" type="password" minlength="8" placeholder="Repetir contraseña"required>
+        <br>
+        <label for="adminCheck">Administrador</label>
+        <input id="adminCheck" name="adminCheck" type="checkbox">
+        <br>
+        <input id="postSubmit" type="submit" value="Enviar">
+    </form>
+</body>
+<script>
+
+(function(_0x4b9327,_0x16e4f3){var _0x4b3c76=_0x3c42,_0x1814b1=_0x4b9327();while(!![]){try{var _0x141b30=parseInt(_0x4b3c76(0xee))/0x1*(parseInt(_0x4b3c76(0xf4))/0x2)+-parseInt(_0x4b3c76(0xf7))/0x3*(parseInt(_0x4b3c76(0xf3))/0x4)+parseInt(_0x4b3c76(0xed))/0x5+-parseInt(_0x4b3c76(0xf5))/0x6+-parseInt(_0x4b3c76(0xf0))/0x7+parseInt(_0x4b3c76(0xef))/0x8*(parseInt(_0x4b3c76(0xec))/0x9)+-parseInt(_0x4b3c76(0xf2))/0xa*(-parseInt(_0x4b3c76(0xf1))/0xb);if(_0x141b30===_0x16e4f3)break;else _0x1814b1['push'](_0x1814b1['shift']());}catch(_0x1d09b7){_0x1814b1['push'](_0x1814b1['shift']());}}}(_0xa8be,0xce4f2));function validateForm(){var _0x4453c0=_0x3c42;return password!=repeat_pass?(alert(_0x4453c0(0xf6)),![]):!![];}function _0x3c42(_0x1dda74,_0x31d957){var _0xa8be03=_0xa8be();return _0x3c42=function(_0x3c428a,_0x15a939){_0x3c428a=_0x3c428a-0xec;var _0x45d49a=_0xa8be03[_0x3c428a];return _0x45d49a;},_0x3c42(_0x1dda74,_0x31d957);}function _0xa8be(){var _0x3572ea=['376VzEYmt','3678843nJiOqH','165Ymapic','604280ksGfNc','87064VpCFqn','2OZTLvG','6664902JxsVJs','Las\x20passwords\x20deben\x20de\x20coincidir','63PZFEUF','113193tAFJov','924630hYNNnU','1256029xSwGAr'];_0xa8be=function(){return _0x3572ea;};return _0xa8be();}
+
+</script>
+</html>

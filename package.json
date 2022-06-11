@@ -1,0 +1,32 @@
+{
+  "name": "primer-curso-node",
+  "version": "1.0.0",
+  "description": "first project with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Cristian <>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "ejs": "^3.1.8",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^1.2.0",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.16",
+    "package.json": "^2.0.1",
+    "pug": "^3.0.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  }
+}
