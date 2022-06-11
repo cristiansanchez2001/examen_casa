@@ -1,0 +1,5 @@
+El primer és fer npm install package.json
+
+Per ficar en funcionament el servidor sols farà falta fer npm start.
+
+El formulari de registre carregara sols a l'anar a https://localhost:3000/register
